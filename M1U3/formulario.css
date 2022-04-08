@@ -1,3 +1,4 @@
+
 input[type="text"],
 select {
   width: 100%;
@@ -22,20 +23,19 @@ input[type="submit"] {
 }
  .enviar {
     box-shadow: none;
-    box-sizing: border-box;
-    float: center;
-    margin-top: 0;
-    padding-top: 0;
-    margin-bottom: 0;
     
-  }
+    float: right;
+    
+      }
 
 input[type="submit"]:hover {
   background-color: #7b7e7d9c;
+
   
 }
 
 div {
+  display: inline-block;
   margin: 25px;
   border-radius: 15px;
   background-color: #7f807e;
@@ -49,11 +49,13 @@ h3 {
   font-size: 2em;
   text-align: center;
   padding: 10px;
-  margin: 40px;
+  margin: 20px 10px 10px 10px;
   font-family: Calibri, "Trebuchet MS", sans-serif;
   font-weight: 800;
   background-color: rgb(105, 104, 104);
   box-shadow: 10px 5px 5px red;
+  text-shadow: 4px 4px 4px #1d1d1d;
+
 }
 body {
   background-color: rgba(2, 0, 8, 0.966);
@@ -66,7 +68,7 @@ body {
   
 }
 .tel-conf {
-  margin: 0;
+  margin-top: 20px;
   background-color: rgb(250, 248, 248);
   border: 1px solid black;
   padding: 14px;
@@ -87,15 +89,35 @@ body {
     padding: 0px;
     margin-left: 0;
     margin-bottom: 0;
+    border-radius: 12%;
 
   }
  input[type="telefono"] {
-   box-sizing: content-box;
-width: 50%;
-padding: 8px;
+    box-sizing: content-box;
+    width: 90%;
+    padding: 7px;
 
  }
 
  ul {
     list-style: none;
+    
+}
+.ul-container {
+  padding: 20px;
+  margin-top: -30px;
+}
+
+label{
+  font-family: calibri;
+  font-size: 18px;
+  text-shadow: 4px 4px 4px #1d1d1d;
+}
+
+textarea {
+  margin-top: 30px;
+  margin-left: 5px;
+  font-size: 17px;
+  font-family:  Calibri, 'Trebuchet MS', sans-serif;
+  
 }
