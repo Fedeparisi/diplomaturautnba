@@ -12,20 +12,27 @@ select {
 }
 
 input[type="submit"] {
-  width: 100%;
-  background-color: #41414263;
+  background-color: #00000863;
   color: white;
-  padding: 10px;
-  margin: 20px 0;
-  border-color: #807f83;
+  border-color: #1d1d1d;
   border-radius: 8px;
   cursor: pointer;
   font-size: 23px;
   font-family: Calibri, "Trebuchet MS", sans-serif;
 }
+ .enviar {
+    box-shadow: none;
+    box-sizing: border-box;
+    float: center;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    
+  }
 
 input[type="submit"]:hover {
-  background-color: #383a399c;
+  background-color: #7b7e7d9c;
+  
 }
 
 div {
@@ -56,6 +63,7 @@ body {
   padding: 5px;
   margin: 0;
   box-shadow: none;
+  
 }
 .tel-conf {
   margin: 0;
@@ -63,6 +71,7 @@ body {
   border: 1px solid black;
   padding: 14px;
   box-shadow: none;
+  
   }
 
   ::placeholder {
@@ -70,4 +79,23 @@ body {
     font-weight: 900;
     
   }
-  
+  .tel-opc {
+    box-shadow: none;
+    font-size: 17px;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    color: #dcddda;
+    padding: 0px;
+    margin-left: 0;
+    margin-bottom: 0;
+
+  }
+ input[type="telefono"] {
+   box-sizing: content-box;
+width: 50%;
+padding: 8px;
+
+ }
+
+ ul {
+    list-style: none;
+}
