@@ -1,0 +1,73 @@
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: 2px solid rgb(99, 96, 96);
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #41414263;
+  color: white;
+  padding: 10px;
+  margin: 20px 0;
+  border-color: #807f83;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 23px;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #383a399c;
+}
+
+div {
+  margin: 25px;
+  border-radius: 15px;
+  background-color: #7f807e;
+  padding: 20px;
+  color: white;
+  box-shadow: 10px 5px 5px red;
+}
+
+h3 {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  padding: 10px;
+  margin: 40px;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+  background-color: rgb(105, 104, 104);
+  box-shadow: 10px 5px 5px red;
+}
+body {
+  background-color: rgba(2, 0, 8, 0.966);
+}
+
+.tel-name {
+  padding: 5px;
+  margin: 0;
+  box-shadow: none;
+}
+.tel-conf {
+  margin: 0;
+  background-color: rgb(250, 248, 248);
+  border: 1px solid black;
+  padding: 14px;
+  box-shadow: none;
+  }
+
+  ::placeholder {
+    border: none;
+    font-weight: 900;
+    
+  }
+  

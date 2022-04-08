@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Document</title>
+</head>
+<body>
+
+<h3>FORMULARIO DE CONTACTO</h3>
+
+<div>
+  <form>
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="Nombre" placeholder="Ingresa tu nombre.">
+
+    <label for="apellido">Apellido</label>
+    <input type="text" id="apellido" name="Apellido" placeholder="Ingresa tu apellido.">
+
+    <label for="direccion">Dirección</label>
+    <input type="text" id="direccion" name="direccion" placeholder="Ingresa tu dirección.">
+
+    
+
+    <label for="country">País</label>
+    <select id="country" name="country">
+      <option value="argentina">Argentina</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+   <div class="tel-name"><label for="telefono">Telefono</label></div>
+    <div class="tel-conf"><input type="telefono" id="telefono" name="telefono" placeholder="Ingresa tu Telefono."></div>
+ 
+    <label for="telefono"></label>
+    <ul>
+        <li>
+            <input type="radio" name="telefono" value="fijo">
+            <label>Telefono Fijo</label>
+        </li>
+        <li>
+            <input type="radio" name="telefono" value="celular">
+            <label>Celular</label>
+        </li>
+    </ul>
+    <input type="submit" value="Enviar">
+  </form>
+</div>
+</body>
+</html>
