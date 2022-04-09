@@ -115,6 +115,7 @@ label{
 }
 
 textarea {
+  display: block;
   margin-top: 30px;
   margin-left: 5px;
   font-size: 17px;
