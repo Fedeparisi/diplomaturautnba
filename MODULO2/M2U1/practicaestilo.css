@@ -1,0 +1,18 @@
+header {
+    background: linear-gradient(to bottom, blue, white);
+    margin: 20px
+}
+
+.bienvenidos {
+    border: 5px red solid;
+    box-shadow: 3px 4px 5px #888;
+    margin: 20px 8px;
+    border-radius: 5px 20px 5px 10px;
+    padding: 20px;
+}
+
+p{
+    column-count: 3;
+    column-gap: 20px;
+    margin: 8px 6px;
+}
