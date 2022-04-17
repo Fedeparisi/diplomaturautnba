@@ -1,0 +1,72 @@
+html { 
+  background: url(imagenes/portada.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 3vh;
+  background-color: #f1f1f19d;
+  position: fixed;
+  height: 100%;
+  min-width: 176px;
+  font-family: sen, cursive, Arial, Helvetica, sans-serif;
+}
+li a {
+  display: inline-block;
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+li {
+  margin-left: 14px;
+  text-align: left;
+  border-bottom: 2px solid #555;
+}
+li:last-child {
+  border-bottom: none;
+}
+.title {
+  font-family: 'Lobster Two', cursive;, Arial, Helvetica, sans-serif;
+  font-size: 1.7em;
+  text-align: center;
+  letter-spacing: 7px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.boton {
+  font-size: 0.73em;
+  border-radius: 9px;
+  box-shadow: 1px 1px 1px;
+}
+@media screen and (max-width: 700px) {
+.nav-ul {
+    display: none;
+  }
+.nav-responsive {
+  display:none;
+}  
+}
+
+
+
+
+
+
+
