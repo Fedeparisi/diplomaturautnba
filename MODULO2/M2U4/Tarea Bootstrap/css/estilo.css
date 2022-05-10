@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+#menu a, button{
+    font-size: 18px !important;
+    font-weight: 600;
+}
+#menu a{
+color:#3f3f3f;
+}
+.carousel-inner {
+    max-height:35rem !important; 
+}
+#img-central{
+    max-height:30rem !important;
+    width:50%;
+}
+#local {
+    margin-top:50px;
+    background-color: #f3f3f3;
+    display:flex;
+    justify-content: center; 
+    padding-bottom: 300px; 
+}
+.despedida {
+    width:50%;
+    margin-left:100px;
+    padding-top:100px;
+}
+#bg-contactos{
+    position:relative;
+    top: -130px;
+} 
+#seccion-contacto{
+    background-color: #1b2a4e;
+    min-height:500px;
+    position:relative;
+}
+#contenedor-formulario{
+    position:absolute;
+    top:15%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;
+}
+#titulo-formulario {
+    color: #3f3f3f;
+}
+header {
+    background: #254dac;
+    min-height: 50px;;
+}
+header p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+@media (max-width:1200px){
+    #intro, #equipo {
+        width:90% !important;
+        margin:auto;
+}
+#local {
+        flex-wrap: wrap;
+        padding-top:30px;
+}
+.despedida {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+}
+}
+@media (max-width:768px) {
+#intro, #equipo{
+    width:90% !important;
+    margin:auto;
+}
+#img-central{
+    max-height:20rem !important;
+    width:90%; 
+}
+.despedida {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+}
+#local {
+    flex-wrap: wrap;
+}
+#bg-contactos{
+    top: -120px;
+}
+}
+@media (max-width: 576px) {
+#servicios-fila-2 {
+    width:100% !important;
+}
+#servicios-fila-1 {
+    width:100% !important;
+}
+.icono-wrap{
+    flex-wrap:wrap !important;
+justify-content: center !important;
+    text-align: center;
+}
+}
