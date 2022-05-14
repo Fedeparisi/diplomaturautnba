@@ -8,6 +8,9 @@ header{
     background-image: linear-gradient(to top, #0a2c60, #143970, #1d4780, #265590, #2e64a1);
     padding: 16px 0; /*1rem 0*/
 }
+.navresponsive{
+    display: none;
+}
 .logo{
     color: #333;
     margin-left: 25px;
@@ -18,7 +21,6 @@ header h1{
     font-weight: 100;
     font-style: italic;
     display: inline-block;
-    position: relative;
     bottom: 35px;
     margin-left: 10px;
 }
@@ -139,7 +141,7 @@ h2{
 .persona p{
     color: #666;
     font-size: 13px;
-    font-weight: 900;
+    font-weight: 500;
     text-align: justify;
 }
 
@@ -172,8 +174,6 @@ h2{
 .servicio:nth-child(even){
     flex-direction: row-reverse;
 }
-
-
 @media (max-width: 762px){
 .persona{
     width: 100%;
@@ -181,10 +181,6 @@ h2{
 .personas{
     display: flex;
     flex-wrap: wrap;
-}
-.image-principal{
-    
-    object-fit: cover;
 }
 
 @media (max-width: 576px) {
@@ -201,14 +197,10 @@ nav ul{
 .columnas{
     flex-wrap: wrap;
 }
-.holdera{
-    
-}
 .holdera {
     width: 100vw;
     height: 250px;
     overflow: hidden;
-   
     position: relative;
 }
 .holdera > .crop {
@@ -221,6 +213,12 @@ nav ul{
     min-height: 100%;
     min-width: 100%;
 }
+@media (max-width: 500px){
+.navnormal{
+    display: none;
+    }
+.navresponsive{
+    display: block;
 
-
+}
 }
