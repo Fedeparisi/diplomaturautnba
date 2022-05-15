@@ -213,12 +213,10 @@ nav ul{
     min-height: 100%;
     min-width: 100%;
 }
-@media (max-width: 500px){
 .navnormal{
     display: none;
     }
 .navresponsive{
     display: block;
-
 }
 }
