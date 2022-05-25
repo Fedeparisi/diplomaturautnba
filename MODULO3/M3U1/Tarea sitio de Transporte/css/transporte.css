@@ -174,6 +174,74 @@ h2{
 .servicio:nth-child(even){
     flex-direction: row-reverse;
 }
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.galeria img{
+    width: 18%;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+
+
+
+.contacto  {
+    display: flex;
+    gap: 24px;
+}
+.contacto div{
+    width: 100%;
+}
+.datos p{
+    font-size: 14px;
+}
+.datos ul li{
+    font-size: 13px;
+}
+.formulario p{
+    display: flex;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+.formulario p label{
+    min-width: 80px;
+}
+.formulario p label{
+    display: flex;
+    align-items: center;
+}
+.formulario p:nth-child(4){
+    align-items: center;
+}
+.formulario textarea{
+    resize: none;
+    height: 130px;
+    width: 70%;
+}
+.formulario input[type="submit"]{
+    background: #2e64a1;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 14px;
+    padding: 5px 16px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+.formulario input[type="submit"]:hover{
+    background-color: #053164;
+}
+
+
+
 @media (max-width: 762px){
 .persona{
     width: 100%;
